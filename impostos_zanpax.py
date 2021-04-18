@@ -8,11 +8,11 @@ iss_recife = float(input("Insira o percentual do ISS: "))
 icms_pe = float(input("Insira o percentual do ICMS: "))
 
 # valor iss
-valor_1 = float(iss_recife * valor_projeto) / 100.0
+valor_1 = float(iss_recife * valor_projeto) / 100
 print(f'O valor do ISS pago e de: {valor_1}')
 
 # valor icms
-valor_2 = float(icms_pe * valor_projeto) / 100.0
+valor_2 = float(icms_pe * valor_projeto) / 100
 print(f'O valor do ICMS pago e de: {valor_2}')
 
 
